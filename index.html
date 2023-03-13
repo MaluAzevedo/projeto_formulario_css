@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img src="https://www.pngkey.com/png/full/4-48879_fruit-png-fruits-png.png" width="150" height="120" alt="frutas">
+        <h1 class="cabecalho__titulo">Cadastro de Produtos:</h1>
+    </header>
+
+    <main>
+        <form action="" method="post">
+
+            <input placeholder="Nome" type="text" name="nome" id="">
+            <input placeholder="Preço" type="text" name="preco" id="">
+
+            <hr>
+
+            <input value="0" placeholder="Quantidade" type="number" name="quantidade" id="">
+
+            <select required name="categoria" id="">
+                <option value="" selected hidden>Selecione a categoria</option>
+                <option value="frutas">Frutas</option>
+                <option value="verdura">Verduras</option>
+                <option value="doces">Doces</option>
+                <option value="salgados">Salgados</option>
+            </select>
+
+            <hr>
+            <button class="botao">CADASTRAR</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
